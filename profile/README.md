@@ -1,8 +1,6 @@
 # Energy modelling workbench
 
-Energy modelling workbench contains several tools for energy system modelling.
-
-These tools to deal with various data formats and different model structures. An interoperable energy system data specification (ines-spec) is central to this project.
+Energy modelling workbench contains several tools for energy system modelling. These tools to deal with various data formats and different model structures. An interoperable energy system data specification (ines-spec) is central to this project.
 
 ## Available tools
 An overview of the available tools:

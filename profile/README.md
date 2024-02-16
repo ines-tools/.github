@@ -10,7 +10,7 @@ This workflow includes, but is not limited to:
 + data pipelines
 + an open certification process [ines-certify](https://github.com/energy-modelling-workbench/ines-certify)
 
-![image](.github/profile/ines-data-tools-workflow-example.png)
+![image](https://github.com/energy-modelling-workbench/.github/blob/fb8a65d0ed3d60a964da6e11d20f8428312c2dea/profile/ines-data-tools-workflow-example.png)
 
 0. **Templates** are the prerequisites of the workflow. These are the formats/specifications of the external data, the interoperable energy system data and the models.
     + [spine-data-model](https://github.com/energy-modelling-workbench/spine-data-model) is a flexible data model used by the tools that makes it easier to build data conversion tools.

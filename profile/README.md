@@ -14,15 +14,15 @@ The tools utilize a flexible data model [spine-data-model](https://github.com/en
 
 The tools can be used in various ways and can be appended with your own tools and models.
 
-Below is an example using [Spine Toolbox](https://github.com/Spine-tools/Spine-Toolbox).
+What follows is an example of a workflow with these tools using [Spine Toolbox](https://github.com/Spine-tools/Spine-Toolbox).
 
 ## Example Workflow
 
 Below you find an example of a workflow with the energy modelling workbench with a description of each of the processes (first level of bullet points) and the corresponding repositories in this project (second level of bullet points).
 
-This workflow includes, but is not limited to:
-+ data pipelines
-+ an open certification process [ines-certify](https://github.com/energy-modelling-workbench/ines-certify)
+The first part of the example workflow represents data pipelines to create high resolution data.
+The middle part of the example workflow processes that data to create data for a case study in a generic format (ines-spec) to be used by different models.
+The last part of the example workflow represents a benchmarking comparison between two tools.
 
 ![image](https://github.com/energy-modelling-workbench/.github/blob/fb8a65d0ed3d60a964da6e11d20f8428312c2dea/profile/ines-data-tools-workflow-example.png)
 

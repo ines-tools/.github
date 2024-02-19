@@ -22,7 +22,7 @@ The example workflow includes (but is not limited to):
 + a middle part that processes the data to create data for a case study in a generic format (ines-spec) to be used by different models,
 + and a final part that represents a benchmarking comparison between two tools.
 
-![image](https://github.com/energy-modelling-workbench/.github/blob/fb8a65d0ed3d60a964da6e11d20f8428312c2dea/profile/ines-data-tools-workflow-example.png)
+![ines data tools workflow example](https://github.com/energy-modelling-workbench/.github/blob/3d4c98ac06056b39bed620ffd8f5ce0c8221aa82/profile/ines-data-tools-workflow-example.png)
 
 0. **Templates** are the prerequisites of the workflow. These are the formats/specifications of the external data, the interoperable energy system data and the models.
     + [spine-data-model](https://github.com/energy-modelling-workbench/spine-data-model) is a flexible data model used by the tools that makes it easier to build data conversion tools.

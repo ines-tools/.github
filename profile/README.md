@@ -36,7 +36,7 @@ The example workflow includes (but is not limited to):
 6. **Exporters** translate the more general structure of the built data and scenarios to a format specific to an energy system modelling tool, e.g. SpineOpt.
     + [ines-spineopt](https://github.com/energy-modelling-workbench/ines-spineopt) translates to (and from!) [SpineOpt](https://github.com/Spine-tools/SpineOpt.jl).
     + [ines-flextool](https://github.com/energy-modelling-workbench/ines-flextool) translates to (and from!) [IRENA-flextool](https://www.irena.org/Energy-Transition/Planning/Flextool).
-    + [ines-pypsa] (https://github.com/energy-modelling-workbench/ines-pypsa) translates to (and from!) [PyPSA](https://pypsa.org/).
+    + [ines-pypsa](https://github.com/energy-modelling-workbench/ines-pypsa) translates to (and from!) [PyPSA](https://pypsa.org/).
 7. **Tools** use the case data to perform the necessary calculations.
 8. **Collect results** to compare the outcome of different tools.
 9. **Results** contains the results of different tools in a specified format.

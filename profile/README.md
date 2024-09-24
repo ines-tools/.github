@@ -4,9 +4,9 @@ Energy modelling workbench contains several tools for energy system modelling. T
 
 ## Available tools
 An overview of the available tools:
-- an interoperable energy system data specification [ines-spec](https://github.com/energy-modelling-workbench/ines-spec)
+- an interoperable energy system data specification [ines-spec](https://github.com/energy-modelling-workbench/ines-spec) (although not a tool really, just a specification)
 - data processing tools [ines-tools](https://github.com/energy-modelling-workbench/ines-tools)
-- transformers between data formats, e.g. [ines-flextool](https://github.com/energy-modelling-workbench/ines-flextool)
+- transformers between data formats, e.g. [ines-flextool](https://github.com/energy-modelling-workbench/ines-flextool), [ines-spineopt](https://github.com/energy-modelling-workbench/ines-spineopt), [ines-osemosys](https://github.com/energy-modelling-workbench/ines-osemosys), [ines-pypsa](https://github.com/energy-modelling-workbench/ines-pypsa), [ines-empire](https://github.com/energy-modelling-workbench/ines-empire)
 - an open certification process [ines-certify](https://github.com/energy-modelling-workbench/ines-certify)
 - a set of [data-pipelines](https://github.com/energy-modelling-workbench/data-pipelines) feeding into ines-spec
 

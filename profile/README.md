@@ -6,13 +6,11 @@ Energy modelling workbench contains several tools for energy system modelling. T
 An overview of the available tools:
 - an interoperable energy system data specification [ines-spec](https://github.com/energy-modelling-workbench/ines-spec) (although not a tool really, just a specification)
 - data processing tools [ines-tools](https://github.com/energy-modelling-workbench/ines-tools)
-- transformers between data formats, e.g. [ines-flextool](https://github.com/energy-modelling-workbench/ines-flextool), [ines-spineopt](https://github.com/energy-modelling-workbench/ines-spineopt), [ines-osemosys](https://github.com/energy-modelling-workbench/ines-osemosys), [ines-pypsa](https://github.com/energy-modelling-workbench/ines-pypsa), [ines-empire](https://github.com/energy-modelling-workbench/ines-empire)
+- transformers between ines-spec and model specific data formats, e.g. [ines-flextool](https://github.com/energy-modelling-workbench/ines-flextool), [ines-spineopt](https://github.com/energy-modelling-workbench/ines-spineopt), [ines-osemosys](https://github.com/energy-modelling-workbench/ines-osemosys), [ines-pypsa](https://github.com/energy-modelling-workbench/ines-pypsa), [ines-empire](https://github.com/energy-modelling-workbench/ines-empire)
 - an open certification process [ines-certify](https://github.com/energy-modelling-workbench/ines-certify)
 - a set of [data-pipelines](https://github.com/energy-modelling-workbench/data-pipelines) feeding into ines-spec
 
-The tools can be used in various ways and can be appended with your own tools and models.
-
-The next section shows an example of a workflow using these tools. The example workflow is implemented in [Spine Toolbox](https://github.com/Spine-tools/Spine-Toolbox) but not all workflows need to be implemented that way.
+The next section shows an example of a workflow that uses these tools. The example workflow is implemented in [Spine Toolbox](https://github.com/Spine-tools/Spine-Toolbox) but not all workflows need to be implemented that way - one could also do hand-made scripts or have another GUI. However, data transformations are facilitated by ines-spec and spine-data-model and currently the only API to those is [SpineDB-API](https://github.com/spine-tools/Spine-Database-API) (that Spine Toolbox uses under the hood).
 
 ## Example Workflow
 

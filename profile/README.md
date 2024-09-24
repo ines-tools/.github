@@ -8,6 +8,7 @@ An overview of the available tools:
 - data processing tools [ines-tools](https://github.com/energy-modelling-workbench/ines-tools)
 - transformers between data formats, e.g. [ines-flextool](https://github.com/energy-modelling-workbench/ines-flextool)
 - an open certification process [ines-certify](https://github.com/energy-modelling-workbench/ines-certify)
+- a set of [data-pipelines](https://github.com/energy-modelling-workbench/data-pipelines) feeding into ines-spec
 
 The tools can be used in various ways and can be appended with your own tools and models.
 

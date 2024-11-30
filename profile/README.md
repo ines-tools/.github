@@ -1,6 +1,6 @@
-# Energy modelling workbench
+# Ines-tools (formerly energy modelling workbench)
 
-Energy modelling workbench contains several tools for energy system modelling. The aim is to facilitate data transfers between various data formats and different model structures. An interoperable energy system data specification ([ines-spec](https://github.com/energy-modelling-workbench/ines-spec)) built on top of a more generic flexible data model ([spine-data-model](https://github.com/energy-modelling-workbench/spine-data-model)) have both been designed to facilitate data transfers. The system also allows to test modelling tools against an open certification process.
+Ines-tools contains several tools for energy system modelling. The aim is to facilitate data transfers between various data formats and different model structures. An interoperable energy system data specification ([ines-spec](https://github.com/energy-modelling-workbench/ines-spec)) built on top of a more generic flexible data model ([spine-data-model](https://github.com/energy-modelling-workbench/spine-data-model)) have both been designed to facilitate data transfers. The system also allows to test modelling tools against an open certification process.
 
 ## Available tools
 An overview of the available tools:

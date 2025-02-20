@@ -1,6 +1,6 @@
-# Ines-tools (formerly energy modelling workbench)
+# Ines-tools
 
-Ines-tools contains several tools for energy system modelling. The aim is to facilitate data transfers between various data formats and different model structures. An interoperable energy system data specification ([ines-spec](https://github.com/energy-modelling-workbench/ines-spec)) built on top of a more generic flexible data model ([spine-data-model](https://github.com/energy-modelling-workbench/spine-data-model)) have both been designed to facilitate data transfers. The system also allows to test modelling tools against an open certification process.
+Ines-tools contains several tools for energy system modelling. The aim is to facilitate data transfers between various data formats and different model structures and to enable iterations between different modelling tools. An interoperable energy system data specification ([ines-spec](https://github.com/energy-modelling-workbench/ines-spec)) built on top of a more generic flexible data model ([spine-data-model](https://github.com/energy-modelling-workbench/spine-data-model)) have both been designed to facilitate data transfers. The system also allows to test modelling tools against an open certification process.
 
 ## Available tools
 An overview of the available tools:
@@ -10,7 +10,7 @@ An overview of the available tools:
 - an open certification process [ines-certify](https://github.com/energy-modelling-workbench/ines-certify)
 - a set of [data-pipelines](https://github.com/energy-modelling-workbench/data-pipelines) feeding into ines-spec
 
-The next section shows an example of a workflow that uses these tools. The example workflow is implemented in [Spine Toolbox](https://github.com/Spine-tools/Spine-Toolbox) but not all workflows need to be implemented that way - one could also do hand-made scripts or have another GUI. However, data transformations are facilitated by ines-spec and spine-data-model and currently the only API to those is [SpineDB-API](https://github.com/spine-tools/Spine-Database-API) (that Spine Toolbox uses under the hood).
+The next section shows an example of a workflow that uses these tools. The example workflow is implemented in [Spine Toolbox](https://github.com/Spine-tools/Spine-Toolbox) but not all workflows need to be implemented that way - one could also do hand-made scripts or have another GUI. However, data transformations are facilitated by ines-spec and spine-data-model and currently the only API to those is [SpineDB-API](https://github.com/spine-tools/Spine-Database-API) (that also Spine Toolbox uses under the hood).
 
 ## Example Workflow
 
